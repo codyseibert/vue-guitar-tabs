@@ -39,6 +39,7 @@ export default {
 .tab-container {
   width: 600px;
   margin: 0 auto;
+  color: white;
 }
 
 table.tuning {
@@ -76,7 +77,7 @@ table.tabs {
 
 table.tabs::after {
   content: '';
-  border-right: 1px solid #333;
+  border-right: 1px solid white;
   height: 239px;
   display: inline-block;
   position: absolute;
@@ -95,9 +96,8 @@ table.tabs .note {
   text-align: center;
   line-height: 24px;
   border-radius: 50%;
-  background-color: #dcedc1;
-  color: 333;
-  border: 1px solid #333;
+  background-color: #853962;
+  color: white;
   font-weight: bold;
   position: relative;
   top: 22px;
@@ -114,10 +114,11 @@ table.tabs .note.x {
   border: none;
   font-size: 30px;
   font-weight: normal;
+  color: #853962;
 }
 
 table.tabs td {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid white;
   padding: 0;
   margin: 0;
 }
